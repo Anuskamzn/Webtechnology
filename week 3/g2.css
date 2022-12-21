@@ -1,0 +1,25 @@
+h3{
+    color: rgb(193, 235, 235);
+    background-color: rgb(109, 165, 161);
+    font-weight: bolder;
+    text-align: right;
+    font-style: italic;
+}
+h3:hover{
+    background-color: beige;
+    color: blueviolet;
+    text-align: justify;
+    font-style: italic;
+}
+p{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#css{
+    color: blue;
+    text-decoration: none;
+}
