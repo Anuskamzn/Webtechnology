@@ -149,48 +149,41 @@ section{
 }
 .li{
     margin: 10px ;
-    padding: 30px;
+    padding: 25px;
     text-align: left;
-    position: relative;
     width: 35%; 
+    border: 1px solid rgb(167, 165, 165);
+    border-radius: 7px;
 }
 .img {
     width: 250px;
     height: 180px;
     border-radius: 5px;
 }
-  
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    background-color:rgb(111, 111, 131);
-}
-  
-.li:hover .overlay {
-    opacity: 1;
-}
-  
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 20%;
-    text-align: center;
-
+.text{
+    color: rgb(63, 61, 67);
+    font-weight: 900;
 }
 .tex{
-  color: white;
-    font-size: 20px;
-    position: absolute;
-    text-align:center;
-    top: 40%
+    color: rgb(58, 77, 70);
 }
+.read{
+    color: rgb(59, 87, 87);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.more{
+    color: rgb(54, 72, 80);
+    font-weight: 500;
+    border: 1px solid;
+    padding: 14px;
+    border-radius: 6px;
+    display: flex;
+    width: fit-content;
+    margin-left: 540px;
+}
+
 .class{
     text-align: center;
 }
